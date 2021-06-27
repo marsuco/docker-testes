@@ -3,7 +3,7 @@
 # Um servidor web baseado no busybox.
 #
 # docker build . -t img_ws01
-# docker rm web; docker run --name web -it -v ~/dev/webServer/www:/home/www -p 8080:80 img_ws01
+# docker rm web; docker run --name web -it -v ~/dev/docker-testes/webServer/www:/home/www -p 8080:80 img_ws01
 #----------------------------------------------
 
 FROM busybox
